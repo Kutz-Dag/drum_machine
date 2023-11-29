@@ -21,3 +21,7 @@ A musical drum machine that plays sounds when the keys are pressed. It should lo
 * The goal is to create a musical keypad drum machine that plays different sounds when specific different keys are pressed.
 * The keypad should also have the option to be muted or to choose the custom volume.
 * There also needed to be a button that could switch between two different musical drum types.
+
+## CodePen Project Link
+You can view my project on CodePen using this link:
+[link](https://codepen.io/kutzz/pen/NWeZywd)
