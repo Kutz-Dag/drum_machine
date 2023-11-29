@@ -24,4 +24,4 @@ A musical drum machine that plays sounds when the keys are pressed. It should lo
 
 ## CodePen Project Link
 You can view my project on CodePen using this link:
-[link](https://codepen.io/kutzz/pen/NWeZywd)
+[*Drum Machine* by Kutz](https://codepen.io/kutzz/pen/NWeZywd)
