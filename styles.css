@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: monospace;
+  padding: 5px;
+}
+
+#drum-machine {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #222;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  padding: 21px;
+  grid-gap: 12px;
+  margin-top: 40px;
+  border-radius: 15px;
+  grid-template-columns: 1fr;
+  background-color: #999;
+  border: 2px solid black;
+}
+
+.keyboard {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.drum-pad {
+  height: 61px;
+  margin: 6px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+@media(min-width: 768px) {
+  .wrapper {
+    width: 860px;
+  }
+}
+
+@media(min-width: 992px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.control > button,
+.control > input,
+.control > h2 {
+  margin-bottom: 11px
+}
+
+.control button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 21px;
+  padding: 9px 13px;
+  border-radius: 6px;
+  font-family: monospace;
+  background-color: #1A2954;
+}
+
+input[type="range"] {
+  accent-color: #1A2954;
+  height: 20px;
+  width: 50%;
+  border-radius: 10px;
+  cursor: ew-resize;
+  transition: background .3s ease-in-out;
+}
