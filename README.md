@@ -1,9 +1,8 @@
-# Drum Machine
-## A project for freeCodeCamp.
+# Drum Machine using React
 
-A musical drum machine that plays sounds when the keys are pressed. It should look a bit similar to this:
+A project for freeCodeCamp. A musical drum machine that plays sounds when the keys are pressed. It should look a bit similar to this:
 
-![image](https://www.shutterstock.com/image-vector/black-drum-machine-music-producer-260nw-2354596851.jpg)
+![Capture](https://github.com/user-attachments/assets/c534ed2d-23c4-40bc-a7a0-ccdc9b99a6e4)
 
 ### I used these languages to create this project
 ```html
