@@ -2,7 +2,7 @@
 
 A project for freeCodeCamp. A musical drum machine that plays sounds when the keys are pressed. It should look a bit similar to this:
 
-![Capture](https://github.com/user-attachments/assets/c534ed2d-23c4-40bc-a7a0-ccdc9b99a6e4)(https://drum-machine.freecodecamp.rocks/)
+[![Capture](https://github.com/user-attachments/assets/c534ed2d-23c4-40bc-a7a0-ccdc9b99a6e4)](https://drum-machine.freecodecamp.rocks/)
 
 #### What was the aim?
 * Use React and a few other frontend programming languages and tools.
